@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Personal Website</title>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li class="profile">
+                <div class="image-box">
+                    <img src="profile.png" alt="User Image">
+                </div>
+                <h2>Yasmeen Shakarnh</h2>
+            </li>
+            <li><a href="#about"><i class="fas fa-user"></i><p>About</p></a></li>
+            <li><a href="#experience"><i class="fas fa-briefcase"></i><p>Experience</p></a></li>
+            <li><a href="#education"><i class="fas fa-graduation-cap"></i><p>Education</p></a></li>
+            <li><a href="#skills"><i class="fas fa-cogs"></i><p>Skills</p></a></li>
+            <li><a href="#interests"><i class="fas fa-heart"></i><p>Interests</p></a></li>
+            <li><a href="#awards"><i class="fas fa-award"></i><p>Awards</p></a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i><p>Contact</p></a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <section id="about" class="section">
+           
+            <h2>About</h2>
+            <p>I am a passionate Software Engineer with a focus on creating innovative technical solutions and building high-quality software. With both academic and practical experience in programming and systems design, I am eager to contribute to projects that offer genuine value to users and to further develop my skills within a dynamic team.</p>
+            
+            
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <h3>Software Engineer - XYZ Technology</h3>
+                    <span>(January 2026 - Present)</span>
+                    <p>Developing and maintaining web applications with modern technologies, specifically using Java and Spring Boot. Responsible for designing and implementing advanced software solutions while collaborating within an Agile team to manage projects efficiently.</p>
+                </li>
+                <li>
+                    <h3>Software Engineering Intern - ABC Software</h3>
+                    <span>(June 2025 - December 2025)</span>
+                    <p>Contributed to a task management application using Python and Django. Enhanced code quality by conducting unit testing and assisted in front-end development using HTML, CSS, and JavaScript.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <p><strong>Bachelor of Software Engineering</strong> - [Bethlehem University]</p>
+            <span>(2020 - 2026)</span>
+            <p>curriculum encompassing programming, systems analysis, project management, and software engineering principles.</p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Programming:</strong>
+                    <ol>
+                        <li>Java, Spring Boot: Full-stack web application development.</li>
+                        <li>Python, Django: Back-end development and database management.</li>
+                        <li>JavaScript, HTML, CSS: Front-end development and UI/UX design.</li>
+                    </ol>
+                </li>
+                <li><strong>Databases:</strong>
+                    <ol>
+                        <li>SQL, PostgreSQL: Database design and management.</li>
+                      
+                    </ol>
+                </li>
+                <li><strong>Project Management:</strong>
+                    <ol>
+                        <li>Agile, Scrum: Team collaboration with tools like Jira for project management.</li>
+                    </ol>
+                </li>
+                <li><strong>Development Tools:</strong>
+                    <ol>
+                        <li>Git: Version control for collaborative projects.</li>
+                        <li>Docker: Deploying applications in isolated environments.</li>
+                    </ol>
+                </li>
+            </ul>
+        </section>
+
+        <section id="interests" class="section">
+            <h2>Interests</h2>
+            <p>I am highly interested in continuous learning, especially in artificial intelligence and data analytics. I aspire to work on machine learning-driven projects and contribute to data-centered solutions that enhance user experiences.</p>
+        </section>
+
+        <section id="awards" class="section">
+            <h2>Awards</h2>
+            <ul>
+                <li><strong>Front-End Web Development Nanodegree</strong> - Udacity - 2025
+                    <p>Completed an intensive program focused on front-end web technologies, including HTML, CSS, JavaScript, and responsive design.</p>
+                </li>
+                <li><strong>Google Certification in Software Development</strong> - 2025
+                    <p>Recognized by Google for advanced skills in software development, including best practices in coding, problem-solving, and project management.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <button type="submit">Submit</button><br>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
